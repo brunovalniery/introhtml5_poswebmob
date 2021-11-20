@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <th colspan="3"><h1>CADASTRO DE CLIENTE</h1><th>
+          </tr>
+          <tr>
+            <td class=menulateral>
+                <div class="menu">
+                    <a href="index.html">Página inicial</a><br><br>
+                    <a href="produtos.html">Produtos</a><br><br>
+                    <a href="download.html">Download</a><br><br>
+                    <a href="login.html">Login</a><br><br>
+                </div>
+            </td>
+            <td>
+                <div class="formulario">
+                    <form action="" method="get">
+                        <label for="html">Nome</label> <br>
+                        <input type="text" name="nome"/> <br>
+                        
+                        <label for="html">Endereço</label> <br>
+                        <input type="text" name="endereco"/> <br>
+                        
+                        <label for="html">Telefone</label> <br>
+                        <input type="telefone" name="telefone"/> <br>
+                    
+                        <label for="html">Cidade</label> <br>   
+                        <select name="cidade" id="cidade">
+                            <option value="natal">Natal</option>
+                            <option value="joaopessoa">João Pessoa</option>
+                            <option value="recife">Recife</option>
+                            <option value="fortaleza">Fortaleza</option>
+                        </select>
+                        <br>
+                        
+                        <label for="html">Sexo </label> <br>
+                        <input type="radio" id="masculino" name="masculino" value="Masculino">
+                        <label for="html">Masculino</label>
+                        <input type="radio" id="masculino" name="feminino" value="Feminino">
+                        <label for="html">Feminino</label><br>
+                        
+                        <label for="html">CPF</label> <br>
+                        <input type="number" name="cpf" id="cpf"> <br>
+            
+                        <label for="html">RG</label> <br>
+                        <input type="number" name="rg" id="rg"> <br>
+            
+                        <label for="html">
+                        Cursos que você já fez na área de informática
+                        </label> <br>
+                        <input type="checkbox" id="html5" name="html5" value="HTML 5">
+                        <label for="vehicle1"> HTML 5</label><br>
+                        <input type="checkbox" id="css" name="css" value="CSS">
+                        <label for="vehicle2"> CSS </label><br>
+                        <input type="checkbox" id="javascript" name="javascript" value="JavaScript">
+                        <label for="vehicle3"> JavaScript</label><br>
+                        <input type="checkbox" id="php" name="php" value="PHP">
+                        <label for="vehicle1"> PHP</label><br>
+                        
+                        <label for="vehicle1"> Observação</label><br>
+                        <input type="textarea" id="observacao" name="obsevacao" value="">
+                        <br><br>
+            
+                        <input type="submit" value="Enviar"  id="enviar">
+                    </form>
+                </div>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="3" class="footer">
+                <h6>&#169 Bruno Valniery</h6>
+            </td>
+        </tr>
+        </table>
+    </table>
+</body>
+</html>

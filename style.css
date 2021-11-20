@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    background: #e0e0e0;
+    font-family: 'Lato', sans-serif;
+    color: #0f0d38;
+}
+
+table{
+    width:100%;
+}
+table th{
+    align-items: center;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    background-color: #0f0d38;
+}
+
+table th img{
+    height: 50px;
+}
+
+table td {
+    padding: 5%
+}
+
+table td th h4{
+    color: #BEBCE3;
+}
+
+ol, ul, il{
+    padding: 15px;
+}
+
+#logo {
+    margin-top: 32px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+h1, a{
+    color: #BEBCE3;
+}
+
+#subtitulo{
+    color: #BEBCE3;
+}
+
+#realizarcadastro{
+    padding: 12px;
+    text-decoration: none;
+    border-radius: 3px;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.menu a{
+    padding: 12px;
+    text-decoration: none;
+    border-radius: 3px;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+a:hover{
+    background: white;
+    color: #16134A;
+    padding: 12px;
+    transition: 200ms;
+    text-decoration: none;
+}
+
+img:hover{
+    background: #16134A;
+}
+
+.menu{
+    margin-top: 25px;
+    font-size: 17px;
+    line-height: 24px;
+}
+
+.menulateral{
+    background:#595699;
+    padding: 5px;
+    width: 20%;
+    height: 30%;
+    vertical-align: top;
+}
+
+.formulariologin{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+
+.formulario{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 25px;
+    font-size: 20px;
+}
+
+#senha, #cpf{
+    line-height: 30px;
+    margin-top: 8px;
+}
+
+#login, #cancelar, #enviar{
+    flex-direction: row;
+    line-height: 30px;
+    margin-top: 8px;
+    text-align: justify;
+    padding: 10px 20px;
+    align-items: left;
+}
+
+a .realizarcadastro{
+    text-align: center;
+    margin-top: 8px;
+}
+
+.botoes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px 5px 10px 5px;
+}
+
+input{
+    line-height: 20px;
+}
+
+.footer{
+    text-align: center;
+    background-color: #BEBCE3;
+    margin-bottom: 0;
+}
